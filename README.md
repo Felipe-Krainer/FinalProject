@@ -38,15 +38,17 @@ const movies = [
     { title: "The Matrix", director: "The Wachowskis", genre: "Action", year: 1999 },
     { title: "Parasite", director: "Bong Joon-ho", genre: "Thriller", year: 2019 }
 ];
-
+```
 // Function to return the array
+```javascript
 function getMovies() {
     return movies;
 }
+```
 
 2. Create
 The application allows users to add a new movie using the form. The app checks if a movie with the same title already exists. 
-
+```javascript
 $('#movieForm').on('submit', function (e) {
     e.preventDefault();
     const title = $('#movieTitle').val().trim();
@@ -62,10 +64,10 @@ $('#movieForm').on('submit', function (e) {
     }
     renderMovies();
 });
-
+```
 3. Read
 The movie list is dynamically generated and displayed using jQuery:
-
+```javascript
 function renderMovies() {
     const movieList = getMovies();
     $('#displayArea').empty();
@@ -82,10 +84,10 @@ function renderMovies() {
         `);
     });
 }
-
+```
 4. Update
 Users can update a movie's details. Clicking the Update button fills the form with the selected movie's data:
-
+```javascript
 $(document).on('click', '.updateButton', function () {
     const index = $(this).data('index');
     const movie = movies[index];
@@ -95,17 +97,17 @@ $(document).on('click', '.updateButton', function () {
     $('#movieYear').val(movie.year);
     $('#movieForm').show().data('index', index);
 });
-
+```
 5. Delete
 Users can delete a movie by clicking the Delete button:
-
+```javascript
 $(document).on('click', '.deleteButton', function () {
     const index = $(this).data('index');
     movies.splice(index, 1);
     alert("Movie deleted successfully!");
     renderMovies();
 });
-
+```
 How to Run the Application---------------------------------------
 Clone or download the repository to your local machine.
 Open the index.html file in any modern web browser.
