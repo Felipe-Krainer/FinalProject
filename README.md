@@ -127,9 +127,9 @@ jQuery for DOM manipulation and event handling.
 
 ## Project Highlights
 
-Utilizes modular code by separating data (movies.js) and logic (script.js).
-Checks for duplicate entries to ensure data integrity.
-Dynamic and user-friendly interface.
+Utilizes modular code by separating data (movies.js) and logic (script.js).  
+Checks for duplicate entries to ensure data integrity.  
+Dynamic and user-friendly interface.  
 
 ## Future Improvements
 Add search functionality to filter movies by title or genre.  
