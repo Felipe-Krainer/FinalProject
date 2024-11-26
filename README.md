@@ -23,7 +23,7 @@ Users can delete a movie by clicking the Delete button.
 The movie is removed from the list.
 
 ### Project Structure
-project/
+project/  
     index.html  
     style.css  
     script.js  
