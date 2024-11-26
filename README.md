@@ -20,7 +20,7 @@ Upon saving, the updated movie is reflected in the list, and a success message i
 
 ### Delete
 Users can delete a movie by clicking the Delete button.
-The movie is removed from the list, and a success message is displayed.
+The movie is removed from the list.
 
 ### Project Structure
 project/
