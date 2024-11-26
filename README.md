@@ -120,10 +120,10 @@ Interact with the application to test the CRUD operations.
 
 ## Technologies Used
 
-HTML for structure.
-CSS for styling.
-JavaScript for logic and data handling.
-jQuery for DOM manipulation and event handling.
+HTML for structure.  
+CSS for styling.  
+JavaScript for logic and data handling.  
+jQuery for DOM manipulation and event handling.  
 
 ## Project Highlights
 
@@ -132,9 +132,9 @@ Checks for duplicate entries to ensure data integrity.
 Dynamic and user-friendly interface.
 
 ## Future Improvements
-Add search functionality to filter movies by title or genre.
-Store data in localStorage or integrate with a database for persistence.
-Add movie posters and ratings for richer user experience.
+Add search functionality to filter movies by title or genre.  
+Store data in localStorage or integrate with a database for persistence.  
+Add movie posters and ratings for richer user experience.  
 
 ## Author
 Developed by Felipe de Toledo Krainer for the Web Design CIT 21500 Final Project.
