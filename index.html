@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/jquery-3.7.1.js"></script>
+    <script src="movies.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Movie Manager</h1>
+
+    <div id="displayArea"></div>
+
+    <form id="movieForm" style="display: none;">
+        <input type="text" id="movieTitle" placeholder="Title" required>
+        <input type="text" id="movieDirector" placeholder="Director" required>
+        <input type="text" id="movieGenre" placeholder="Genre" required>
+        <input type="number" id="movieYear" placeholder="Year" required>
+        <button type="submit">Save</button>
+    </form>
+
+    <button id="createButton">Add Movie</button>
+</body>
+</html>
