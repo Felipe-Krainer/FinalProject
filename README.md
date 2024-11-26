@@ -24,12 +24,12 @@ The movie is removed from the list.
 
 ### Project Structure
 project/
-├── index.html       # Main HTML file
-├── style.css        # Stylesheet for the project
-├── script.js        # Main JavaScript file for logic
-├── movies.js        # Contains the array of movie objects
-├── lib/             # Folder for external libraries
-│        jquery-3.7.1.min.js  # jQuery library
+├── index.html
+├── style.css
+├── script.js
+├── movies.js
+├── lib/
+jquery-3.7.1.js
 
 ## How It Works
 1. Array of Objects
