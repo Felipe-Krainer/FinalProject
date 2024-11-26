@@ -1,7 +1,7 @@
 Movie Manager Application
 A CRUD application built with HTML, CSS, JavaScript, and jQuery that allows users to manage a collection of movies. This project demonstrates key web development concepts learned during the semester, including dynamic DOM manipulation, object handling, conditional logic, functions, and iteration.
 
-#Features---------------------------------------
+# Features---------------------------------------
 
 Create
 Users can add a new movie to the collection using the provided form.
