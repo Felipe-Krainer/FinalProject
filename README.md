@@ -24,11 +24,11 @@ The movie is removed from the list.
 
 ### Project Structure
 project/
-├── index.html \n
-├── style.css \n
-├── script.js \n
-├── movies.js \n
-├── lib/ \n
+├── index.html  
+├── style.css  
+├── script.js  
+├── movies.js  
+├── lib/  
 jquery-3.7.1.js
 
 ## How It Works
